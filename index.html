@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+	<head>
+		<title>Mon titre de page</title>
+	</head>
+	<body>
+	<h1>Script de détection Adblock: AdBlock Detect.</h1>
+	<p>On va détecter si la div "adblock" dans cette page est affiché ou non.<br />
+	Pour cela on va mesurer sa hauteur, via main.js (utilise JQuery), au bout de 5 secondes.<br />
+	On enregistre le resultat en BDD.<br />
+	Ce script pourrait aussi afficher un message au visiteur, ou forcer un affichage de pub.<br />
+	Mais il ne sert actuellement que pour des stats.<br />
+	On peut aussi detecter un AdBlock installé mais non activé sur la page: présence de " -moz-binding " sur la div, cette propriété CSS semble être ajoutée à la div.</p>
+		<div id="adblock" class="publicite ads advertising">.</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="main.js"></script>
+</html>
