@@ -14,7 +14,7 @@ $( document ).ready(function() {
 			    }
 		    }
 		    $.ajax({
-	            url: "http://example.org/a.php",
+	            url: "a.php",
 	            type: 'GET',
 	            data: {
 				  ab: ab,
